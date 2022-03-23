@@ -7,7 +7,7 @@ namespace console_programlama
     {
         public static void Main(string[]args)
         {
-            Console.WriteLine("Hello, World!");  // " " İçindeki metni console'a yazdırır.
+            Console.WriteLine("Hello, World!");// " " İçindeki metni console'a yazdırır.
             Console.WriteLine("İsminizi Giriniz:");
             string name= Console.ReadLine(); // name değişkenini console'a yazılan bilgiden okur
              // ve okuduğunu name değişkenine atar 
