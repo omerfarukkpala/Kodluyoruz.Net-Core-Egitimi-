@@ -1,0 +1,15 @@
+C:\Users\faruk\Desktop\patika\Kodluyoruz.Net-Core101-Egitimi-\bin\Debug\net6.0\Kodluyoruz.Net-Core101-Egitimi-.exe
+C:\Users\faruk\Desktop\patika\Kodluyoruz.Net-Core101-Egitimi-\bin\Debug\net6.0\Kodluyoruz.Net-Core101-Egitimi-.deps.json
+C:\Users\faruk\Desktop\patika\Kodluyoruz.Net-Core101-Egitimi-\bin\Debug\net6.0\Kodluyoruz.Net-Core101-Egitimi-.runtimeconfig.json
+C:\Users\faruk\Desktop\patika\Kodluyoruz.Net-Core101-Egitimi-\bin\Debug\net6.0\Kodluyoruz.Net-Core101-Egitimi-.dll
+C:\Users\faruk\Desktop\patika\Kodluyoruz.Net-Core101-Egitimi-\bin\Debug\net6.0\Kodluyoruz.Net-Core101-Egitimi-.pdb
+C:\Users\faruk\Desktop\patika\Kodluyoruz.Net-Core101-Egitimi-\obj\Debug\net6.0\Kodluyoruz.Net-Core101-Egitimi-.csproj.AssemblyReference.cache
+C:\Users\faruk\Desktop\patika\Kodluyoruz.Net-Core101-Egitimi-\obj\Debug\net6.0\Kodluyoruz.Net-Core101-Egitimi-.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\faruk\Desktop\patika\Kodluyoruz.Net-Core101-Egitimi-\obj\Debug\net6.0\Kodluyoruz.Net-Core101-Egitimi-.AssemblyInfoInputs.cache
+C:\Users\faruk\Desktop\patika\Kodluyoruz.Net-Core101-Egitimi-\obj\Debug\net6.0\Kodluyoruz.Net-Core101-Egitimi-.AssemblyInfo.cs
+C:\Users\faruk\Desktop\patika\Kodluyoruz.Net-Core101-Egitimi-\obj\Debug\net6.0\Kodluyoruz.Net-Core101-Egitimi-.csproj.CoreCompileInputs.cache
+C:\Users\faruk\Desktop\patika\Kodluyoruz.Net-Core101-Egitimi-\obj\Debug\net6.0\Kodluyoruz.Net-Core101-Egitimi-.dll
+C:\Users\faruk\Desktop\patika\Kodluyoruz.Net-Core101-Egitimi-\obj\Debug\net6.0\refint\Kodluyoruz.Net-Core101-Egitimi-.dll
+C:\Users\faruk\Desktop\patika\Kodluyoruz.Net-Core101-Egitimi-\obj\Debug\net6.0\Kodluyoruz.Net-Core101-Egitimi-.pdb
+C:\Users\faruk\Desktop\patika\Kodluyoruz.Net-Core101-Egitimi-\obj\Debug\net6.0\Kodluyoruz.Net-Core101-Egitimi-.genruntimeconfig.cache
+C:\Users\faruk\Desktop\patika\Kodluyoruz.Net-Core101-Egitimi-\obj\Debug\net6.0\ref\Kodluyoruz.Net-Core101-Egitimi-.dll
