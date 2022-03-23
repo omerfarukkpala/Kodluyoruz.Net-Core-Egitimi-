@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/bin/Debug/net6.0/Kodluyoruz.Net-Core101-Egitimi-.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
-            "console": "integratedTerminal",
+            "console": "externalTerminal",
             "stopAtEntry": false
         },
         {
