@@ -8,7 +8,7 @@ int okual = int.Parse(Console.ReadLine());
 int demo = 1;      // 1'den başlasın istiyoruz.
 int toplam = 0;
 
-while (demo <= okual)           // demo < okual olsaydı     toplam/okual-1      yazardık.
+while (demo <= okual) // demo < okual olsaydı     toplam/okual-1      yazardık.
 {
     toplam+= demo;
     demo ++;         
@@ -18,9 +18,9 @@ Console.WriteLine(toplam/okual);
 
     // a'dan z'ye bütün harfleri Console'a yazdır.
 
-char character = 'e';
+char character = 'f';
 
-while (character <= 'z')
+while (character <= 'a')
 {
     Console.Write(character);
     character++;
@@ -31,7 +31,7 @@ while (character <= 'z')
 
                 //     foreach(değişkenTipi değişkenAdı in diziAdı)     { //Komutlar}
 
-string[] cars = {"Seat", "Ford", "BMW", "Cadillac", "Audi", "Bentley"};
+string[] cars = {"Togg", "Merso", "BMW", "Honda", "Audi", "Bentley"};
 
 foreach (var car in cars)
 {
