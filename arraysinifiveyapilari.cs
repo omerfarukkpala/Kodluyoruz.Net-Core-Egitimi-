@@ -20,13 +20,13 @@ namespace array_metotları
 
             //Clear
             Console.WriteLine("****Array Clear****");
-            Array.Clear(sayiDizisi,0,4);                    // dört adet sıfır.
+            Array.Clear(sayiDizisi,0,4); // dört adet sıfır.
             foreach (var sayi in sayiDizisi)
             Console.WriteLine(sayi);
 
             //Reverse
             Console.WriteLine("****Array Reverse****");
-            Array.Reverse(sayiDizisi);                      // tersine çevirdi.
+            Array.Reverse(sayiDizisi); // tersine çevirdi.
             foreach (var sayi in sayiDizisi)
             Console.WriteLine(sayi);
 
@@ -36,7 +36,7 @@ namespace array_metotları
             
             //Resize
             Console.WriteLine("****Array Resize****");
-            Array.Resize<int>(ref sayiDizisi,12);           // 11 elemanlı olan diziyi 12 elemanlı yap.
+            Array.Resize<int>(ref sayiDizisi,12); // 11 elemanlı olan diziyi 12 elemanlı yap.
             sayiDizisi[11] = 1;
             foreach (var sayi in sayiDizisi)
             Console.WriteLine(sayi);
