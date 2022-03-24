@@ -12,7 +12,7 @@ switch (month)
         Console.WriteLine("Mart ayındayız!");
         break;
     case 8:
-        Console.WriteLine("Ağustos ayındayız!");        //Ay sırası bozulabilir.
+        Console.WriteLine("Ağustos ayındayız!"); //Ay sırası bozulabilir.
         break;
     case 4:
         Console.WriteLine("Nisan ayındayız!");
@@ -39,7 +39,7 @@ switch (month)
         Console.WriteLine("Aralık ayındayız!");
         break;
     default:
-        Console.WriteLine("Yanlış değer girdiniz!");            // 1-12 dışında.
+        Console.WriteLine("Yanlış değer girdiniz!"); // 1-12 dışında.
         break;
 }
 
