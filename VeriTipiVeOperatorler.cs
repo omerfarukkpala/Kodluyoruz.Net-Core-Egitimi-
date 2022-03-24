@@ -19,7 +19,7 @@ Değer tipleri:  "int", "long", "float", "double", "decimal", "char", "bool", "b
              
 
             // Reel Sayılar
-            float degisken1 = 9;// 4 byte yer kaplar.
+            float degisken1 = 5;// 4 byte yer kaplar.
             double degisken2 = 22;// 8 byte yer kaplar.
             decimal degisken3 = 05; // 16 byte yer kaplar.
 
@@ -33,10 +33,10 @@ Değer tipleri:  "int", "long", "float", "double", "decimal", "char", "bool", "b
 
 
             //
-            object o1 = 'y';// char.
-            object o2 = "y";
-            object o3 = 4;
-            object o4 = 4.3;
+            object o1 = 'f';// char.
+            object o2 = "f";
+            object o3 = 5;
+            object o4 = 5.3;
 
             // string
 
@@ -46,7 +46,7 @@ Değer tipleri:  "int", "long", "float", "double", "decimal", "char", "bool", "b
             st3 = "Ömer Faruk Pala";// st3 değişkenine yeni atma yapıldı.
 
             string degisken5 = "Ömer Faruk";  // sınırsızdır.
-            string degisken6 = "Pala";
+            string degisken6 = "PALA";
             string tamIsim = degisken5 + " " + degisken6;
 
             // Dönüştürme
@@ -89,8 +89,8 @@ Değer tipleri:  "int", "long", "float", "double", "decimal", "char", "bool", "b
         Console.WriteLine(x);
         Console.WriteLine(y);
 
-// Mantıksal Operatörler
-// ve &&  veya || değil !
+/* Mantıksal Operatörler
+ ve &&  veya || değil ! */
 
         bool isSucces = true;
         bool isComleted = false;
