@@ -3,8 +3,8 @@
 Console.WriteLine("Kaça kadar tek sayıları yazdırmak istiyorsunuz?");       //istem
 
 
-    // int okual = Console.ReadLine();                  // Console'da string ifadeler okunur, alınır.
-    int okual = int.Parse(Console.ReadLine());          // Parse edilmesi gerek.
+    // int okual = Console.ReadLine(); // Console'da string ifadeler okunur, alınır.
+    int okual = int.Parse(Console.ReadLine()); // Parse edilmesi gerek.
 
 
     for (int i = 1; i <= okual; i++)
