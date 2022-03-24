@@ -8,30 +8,28 @@ namespace arrays
         {
         //Dizi Tanımlama
 
-            string[] fruits;                           // fruits adında string bir dizi.
-            fruits = new string[3];                    // fruits adında 3 -string- elemanlı, string bir dizi.
+            string[] fruits; // fruits adında string bir dizi.
+            fruits = new string[3]; // fruits adında 3 -string- elemanlı, string bir dizi.
 
-            int[] numbers = new int[9];                // numbers adında 9 -integer- elemanlı, integer bir dizi.            
+            int[] numbers = new int[9]; // numbers adında 9 -integer- elemanlı, integer bir dizi.            
 
-            string[] colours = new string[5];          // colours adında 5 -string- elemanlı, string bir dizi.
+            string[] colours = new string[5]; // colours adında 5 -string- elemanlı, string bir dizi.
 
-            string[] animals = {"cat", "dog", "lion", "monkey", "cow", "bear", "wolf"};
-                                                       // animals adında 7 -string- elemanlı, string bir dizi.
+            string[] animals = {"Cat", "Dog", "Lion", "Monkey", "Horse", "Bear", "Wolf"};
+              // animals adında 7 -string- elemanlı, string bir dizi.
             
         //Dizilere Değer Atama
 
-            fruits[0] = "apple";             // fruits adında string dizinin ilk elemanına "apple" atandı.
-            numbers[3] = 7;                  // numbers adında integer dizinin ilk elemanına 7 atandı.
+            fruits[0] = "apple"; // fruits adında string dizinin ilk elemanına "apple" atandı.
+            numbers[3] = 7; // numbers adında integer dizinin ilk elemanına 7 atandı.
 
-        
         //Dizi Elemanlarına Erişme
 
             Console.WriteLine(fruits[0]);   
-            Console.WriteLine(numbers[3]);  // numbers ismindeki integer dizinin üçüncü index'ini getir.
-            Console.WriteLine(animals[6]);  // animals ismindeki string dizinin altıncı index'ini getir.
+            Console.WriteLine(numbers[3]); // numbers ismindeki integer dizinin üçüncü index'ini getir.
+            Console.WriteLine(animals[6]); // animals ismindeki string dizinin altıncı index'ini getir.
 
         //Döngülerle Dizi Kullanımı
-
 
             // Console'a girilen n tane sayının ortalamasını söyleyen program.    
             Console.WriteLine("Lütfen dizinin eleman sayısını giriniz: ");
