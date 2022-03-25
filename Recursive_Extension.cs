@@ -10,7 +10,7 @@
             int demo = 1;
             Console.WriteLine(demo);
 
-            for (int i = 0; i < 4; i++)         // 0 1 2 3  → 4 kere
+            for (int i = 0; i < 4; i++) // 0 1 2 3  → 4 kere
             {
                 demo = demo * 3;
             }
@@ -20,7 +20,7 @@
         // Program_1
 
             Program_1 program_1 = new Program_1();
-            Console.WriteLine(program_1.Remo(3,5));          //  → 3⁵
+            Console.WriteLine(program_1.Remo(3,5)); //  → 3⁵
 
 
         // Extension
@@ -34,17 +34,17 @@
 
         // Extension İnteger Example
             int[] array_1 = {13,9,8,7,5,6,7,8,9};
-            array_1.felipe();                              // 1. çalıştırdık, ekrana yazdırmadık.
-            array_1.Write_2();                             // 3. yazdırdığımızı çalıştırdık.
+            array_1.felipe(); // 1. çalıştırdık, ekrana yazdırmadık.
+            array_1.Write_2(); // 3. yazdırdığımızı çalıştırdık.
 
 
         // çift mi değil mi ?
         int number_2 = 5;
-        Console.WriteLine(number_2.IsEvenNumber());         // false
+        Console.WriteLine(number_2.IsEvenNumber());  // false
 
 
         // ilk karakterini al ve getir
-        Console.WriteLine(demo_2.GetFirstCharacter());      // T
+        Console.WriteLine(demo_2.GetFirstCharacter()); // T
 
         }
     }
@@ -64,20 +64,20 @@
             // 3          * 3 * 3 * 3 * 3          →   (3,1) çağrıldığında → return number_1; → 3 döner.  
     }
 
-    public static class Program_2                               // --- önemli! --- → static olmalı.
+    public static class Program_2   // --- önemli! --- → static olmalı.
     {
-        public static string RemoveSpaces(this string param)        // --- önemli! --- → static olmalı.
-        {                                                           // --- önemli! --- → this olmalı.
-            string[] dizi = param.Split(" ");                       // boşluklarından ayır ve dizi yaz
-            return string.Join("-", dizi);                          // birleştir        "", → aralardaki boşukları kaldır
+        public static string RemoveSpaces(this string param)  // --- önemli! --- → static olmalı.
+        {                                                     // --- önemli! --- → this olmalı.
+            string[] dizi = param.Split(" ");   // boşluklarından ayır ve dizi yaz
+            return string.Join("-", dizi);  // birleştir        "", → aralardaki boşukları kaldır
         }
         public static string MakeUpper(this string param)
         {
-            return param.ToUpper();                                 // Büyük harf yap
+            return param.ToUpper(); // Büyük harf yap
         }
         public static string MakeLower(this string param)
         {
-            return param.ToLower();                                 // Küçük harf yap
+            return param.ToLower();// Küçük harf yap
         }
 
 
@@ -92,7 +92,7 @@
         public static void Write_2(this int[] param)
         {
             foreach (int item in param)
-            Console.WriteLine(item);                    // 2. yazdırdık ama çalıştırmadık.
+            Console.WriteLine(item); // 2. yazdırdık ama çalıştırmadık.
         }
 
         // çift mi değil mi ?
@@ -106,7 +106,7 @@
 
         public static string GetFirstCharacter(this string param)
         {
-            return param.Substring(0,1);            // 0'dan başla ve bir karakter getir
+            return param.Substring(0,1); // 0'dan başla ve bir karakter getir
         }
     }
 }
