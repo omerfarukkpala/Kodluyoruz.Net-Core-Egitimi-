@@ -1,5 +1,7 @@
 ﻿using System;
-
+/* Bir konsol uygulamasında kullanıcıdan pozitif iki sayı girmesini isteyin (n, m). 
+Sonrasında kullanıcıdan n adet pozitif sayı girmesini isteyin. Kullanıcının girmiş olduğu 
+sayılardan m'e eşit yada tam bölünenleri console'a yazdırın.*/
 namespace Task_2
 {
     class Program
@@ -12,7 +14,7 @@ namespace Task_2
         
             Console.WriteLine($"Lütfen aralarında birer boşluk bırakarak {n} adet pozitif tam sayı giriniz: ");
             string[] numbers_space = new string[n];
-            numbers_space = (Console.ReadLine().Split(" "));        // sayılar sırayla alındı.
+            numbers_space = (Console.ReadLine().Split(" ")); // sayılar sırayla alındı.
             int[] numbers = new int[n];
 
             for (int i = 0; i < n; i++)
