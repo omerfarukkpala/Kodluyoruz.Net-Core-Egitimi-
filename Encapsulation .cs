@@ -8,8 +8,8 @@ namespace Chapter20
         {
             //  Encapsulation kavramı, bir özeliği başka sınıflardan saklamak ya da korumaktır.
             
-            Student student_1 = new Student(010, "Faruk", "Pala",  26, 4);
-            Student student_2 = new Student(020, "Ömer", "Pala", 24, 1);
+            Student student_1 = new Student(010, "Faruk", "Pala",  27, 4);
+            Student student_2 = new Student(020, "Ömer", "Pala", 23, 1);
             student_1.StudentConsole();
             student_2.StudentConsole();
 
