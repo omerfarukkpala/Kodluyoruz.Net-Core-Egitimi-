@@ -44,7 +44,7 @@ namespace Chapter21
             numberofCustomers++;
         }
     }
-    static class Islemler
+    static class Islemler //toplama çıkarma uygulandı
     {
         public static long Addition(int number1, int number2)
         {
