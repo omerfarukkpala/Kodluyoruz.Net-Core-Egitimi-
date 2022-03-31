@@ -29,7 +29,7 @@ namespace Chapter16
             colorList.Add("turkuaz");
             colorList.Add("beyaz");
 
-            // Count
+            //  Count
             Console.WriteLine(numberList.Count);  //  7
             Console.WriteLine(colorList.Count);    //  6
 
