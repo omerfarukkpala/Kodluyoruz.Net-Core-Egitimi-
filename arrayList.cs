@@ -23,7 +23,7 @@ namespace Chapter17
 
             // AddRange → bİr tür çoklu ekleme
             Console.WriteLine("***** AddRange *****");
-            string[] colors = { "sarı", "kırmızı", "Obsidyen", "gündüz  Yeşili" };
+            string[] colors = { "Beyaz", "kırmızı", "Obsidyen", "gündüz  Yeşili" };
             List<int> numbers = new List<int>() { 1, 3, 9, 7, 4, 5 };
             list.AddRange(colors);
             list.AddRange(numbers);
@@ -38,7 +38,7 @@ namespace Chapter17
 
             // Binary Search → kullanabilmek için önce elemanlar sıralanmalı
             Console.WriteLine("***** BinarySearch *****");
-            // Console.WriteLine(list.BinarySearch(9));        // int → Sort → 5
+            // Console.WriteLine(list.BinarySearch(9)); // int → Sort → 5
 
             // Reverse → ters çevirir
             Console.WriteLine("***** Reverse *****");
@@ -52,7 +52,47 @@ namespace Chapter17
             // list.Clear();
 
 
-            
+            Console.WriteLine("***** Dictionary *****");
+            Console.WriteLine("***** Dictionary *****");
+            // Dictionary
+            Dictionary<string, string> demo = new Dictionary<string, string>();
+            demo.Add("book", "kitap");
+            demo.Add("car", "araba");
+            demo.Add("pen", "kalem");
+            Dictionary<int, string> customers = new Dictionary<int, string>();
+            customers.Add(1, "faruk");
+            customers.Add(2, "ali");
+            customers.Add(3, "ahmet");
+            customers.Add(4, "hasan");
+
+            Console.WriteLine(demo["book"]);// kitap
+            Console.WriteLine(customers[3]);// ahmet
+
+            // Keys and Values
+            Console.WriteLine("***** Keys and Values *****");
+            foreach (var demos in demo)
+            {
+                Console.WriteLine(demos);// [book, kitap]    [car, araba]    [pen, kalem]
+                Console.WriteLine(demos.Key);// book     car     pen
+                Console.WriteLine(demos.Value);// kitap    araba   kalem
+            }
+
+            // ContainsKey
+            Console.WriteLine("***** ContainsKey *****");
+            Console.WriteLine(demo.ContainsKey("book"));      // True
+            Console.WriteLine(demo.ContainsKey("school"));    // False
+
+            // Count
+            Console.WriteLine("***** Count *****");
+            Console.WriteLine(demo.Count);// 3
+            Console.WriteLine(customers.Count);// 4
+
+            // Remove
+            Console.WriteLine("***** Remove *****");
+            customers.Remove(4);// [4, hasan]   kaldırıldı.
+            foreach (var customer in customers)
+                Console.WriteLine(customer);
+        }
     }
     /*  Farklı veri tipleri ArrayList içerisinde saklanabilir.
      Eleman eklenerek veya çıkarılarak ArrayList'in boyutu dinamik olarak değiştirilebilir.
