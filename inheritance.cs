@@ -57,7 +57,7 @@ public class TohumluBitkiler:Bitkiler{
 }
 
 
-TohumluBitkiler tohumluBitki = new TohumluBitkiler();
+/* TohumluBitkiler tohumluBitki = new TohumluBitkiler();
 tohumluBitki.Beslenme();
 tohumluBitki.Bosaltim();
 tohumluBitki.Solunum();
@@ -72,5 +72,5 @@ ordek.Beslenme();
 ordek.Bosaltim();
 ordek.SuruHalindeHareket();
 ordek.Yuzmek(); 
-
+*/
 }
