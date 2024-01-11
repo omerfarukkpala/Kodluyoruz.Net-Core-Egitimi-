@@ -18,14 +18,11 @@ Print the number of elements and the average of each list.
         Her iki dizinin eleman sayısını ve ortalamasını ekrana yazdırın.
 ## Question - 2
 Write a program to input 20 numbers from the keyboard. Find the top 3 and bottom 3 numbers among them. Calculate the averages of each group separately and print these averages and their total averages to the console. (Use the Array class.)
-#### Soru - 2: Klavyeden girilen 20 adet sayının en büyük 3 tanesi ve en küçük 3 tanesi bulan, 
-        her iki grubun kendi içerisinde ortalamalarını 
-        alan ve bu ortalamaları ve ortalama toplamlarını console'a yazdıran programı yazınız. 
-        (Array sınıfını kullanarak yazınız.) 
+#### Soru - 2: Klavyeden girilen 20 adet sayının en büyük 3 tanesi ve en küçük 3 tanesi bulan    her iki grubun kendi içerisinde ortalamalarını  alan ve bu ortalamaları ve ortalama toplamlarını console'a yazdıran programı yazınız.(Array sınıfını kullanarak yazınız.) 
         ![222](https://github.com/omerfarukkpala/Kodluyoruz.Net-Core101-Egitimi-/assets/101570820/fa327767-458b-4fb6-82c5-f6c157753295)
 
 ## Question - 3
 Write a program to input a sentence from the keyboard. Store the vowels in an array and sort the elements of the array.
-Soru - 3: Klavyeden girilen cümle içerisindeki sesli harfleri
+### Soru - 3: Klavyeden girilen cümle içerisindeki sesli harfleri
          bir dizi içerisinde saklayan ve dizinin elemanlarını sıralayan programı yazınız. 
 ![image](https://github.com/omerfarukkpala/Kodluyoruz.Net-Core101-Egitimi-/assets/101570820/e64025ac-6a9e-4790-9590-927d9523125a)
