@@ -7,7 +7,7 @@
 ![image](https://github.com/omerfarukkpala/Kodluyoruz.Net-Core101-Egitimi-/assets/101570820/6cb23ac2-4296-42f1-a1da-d48b0ae952a9)
 #
 # Patika.DevCollections
-   
+    
 ## Question - 1
 Write a program to input 20 positive numbers from the keyboard. Separate them into two different lists, one for prime numbers and the other for non-prime numbers. (Use the ArrayList class.)
 Prevent negative and non-numeric inputs.
